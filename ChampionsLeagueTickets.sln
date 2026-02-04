@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeagueTickets", "ChampionsLeagueTickets\ChampionsLeagueTickets.csproj", "{6D88F004-7409-4D5A-80BF-5CBD5F83D6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeagueTickets.Domain", "ChampionsLeagueTickets.Domain\ChampionsLeagueTickets.Domain.csproj", "{DFE80A26-B2E6-44EE-8456-97EDFD173FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeagueTickets.Repository", "ChampionsLeagueTickets.Repository\ChampionsLeagueTickets.Repository.csproj", "{9BA721AB-13E7-43CD-AAC0-343D5E181FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionsLeagueTickets.Service", "ChampionsLeagueTickets.Service\ChampionsLeagueTickets.Service.csproj", "{23596C82-353A-43B3-BFA0-AF13EC4C6EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6D88F004-7409-4D5A-80BF-5CBD5F83D6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D88F004-7409-4D5A-80BF-5CBD5F83D6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D88F004-7409-4D5A-80BF-5CBD5F83D6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE80A26-B2E6-44EE-8456-97EDFD173FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE80A26-B2E6-44EE-8456-97EDFD173FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE80A26-B2E6-44EE-8456-97EDFD173FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE80A26-B2E6-44EE-8456-97EDFD173FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA721AB-13E7-43CD-AAC0-343D5E181FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA721AB-13E7-43CD-AAC0-343D5E181FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA721AB-13E7-43CD-AAC0-343D5E181FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA721AB-13E7-43CD-AAC0-343D5E181FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23596C82-353A-43B3-BFA0-AF13EC4C6EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23596C82-353A-43B3-BFA0-AF13EC4C6EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23596C82-353A-43B3-BFA0-AF13EC4C6EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23596C82-353A-43B3-BFA0-AF13EC4C6EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
